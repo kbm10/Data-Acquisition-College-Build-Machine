@@ -1,0 +1,20 @@
+﻿Build started 03/12/2015 18:41:29.
+     1>Project "C:\FYP-2015-EEE_build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/external/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/external/fftw/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/external/qwt/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/addchannel/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/deviceio/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/fftoptions/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/graphtestbench/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/FYP-2015-EEE_build/testbench/qwttest/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\FYP-2015-EEE_build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

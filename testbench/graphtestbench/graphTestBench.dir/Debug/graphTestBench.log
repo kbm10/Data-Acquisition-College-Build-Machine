@@ -1,0 +1,36 @@
+﻿Build started 03/12/2015 18:41:30.
+     1>Project "C:\FYP-2015-EEE_build\testbench\graphtestbench\graphTestBench.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/FYP-2015-EEE/testbench/graphtestbench/CMakeLists.txt
+         CMake does not need to re-run because C:\FYP-2015-EEE_build\testbench\graphtestbench\CMakeFiles\generate.stamp is up-to-date.
+         Generating moc_graphtestbench.cpp
+         Generating moc_graphtest.cpp
+         Generating moc_qcustomplot.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\FYP-2015-EEE_build\testbench\graphtestbench" /I"C:\FYP-2015-EEE\testbench\graphtestbench" /I"C:\FYP-2015-EEE\include" /I"C:\FYP-2015-EEE\include\extpkg" /I"C:\FYP-2015-EEE\testbench" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_SERIALPORT_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"graphTestBench.dir\Debug\\" /Fd"graphTestBench.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\FYP-2015-EEE_build\testbench\graphtestbench\moc_graphtestbench.cpp" "C:\FYP-2015-EEE_build\testbench\graphtestbench\moc_graphtest.cpp" "C:\FYP-2015-EEE_build\testbench\graphtestbench\moc_qcustomplot.cpp" "C:\FYP-2015-EEE\testbench\graphtestbench\main_graphtestbench.cpp" "C:\FYP-2015-EEE\testbench\graphtestbench\graphtestbench.cpp" "C:\FYP-2015-EEE\testbench\graphtestbench\graphtest.cpp" "C:\FYP-2015-EEE\testbench\graphtestbench\qcustomplot.cpp"
+         moc_graphtestbench.cpp
+         moc_graphtest.cpp
+         moc_qcustomplot.cpp
+         main_graphtestbench.cpp
+         graphtestbench.cpp
+     1>C:\FYP-2015-EEE\testbench\graphtestbench\graphtestbench.cpp(67): warning C4309: 'initializing' : truncation of constant value
+     1>C:\FYP-2015-EEE\testbench\graphtestbench\graphtestbench.cpp(75): warning C4309: 'initializing' : truncation of constant value
+     1>C:\FYP-2015-EEE\testbench\graphtestbench\graphtestbench.cpp(83): warning C4309: 'initializing' : truncation of constant value
+     1>C:\FYP-2015-EEE\testbench\graphtestbench\graphtestbench.cpp(91): warning C4309: 'initializing' : truncation of constant value
+         graphtest.cpp
+         qcustomplot.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FYP-2015-EEE\bin\graphTestBench.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5PrintSupportd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPortd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/FYP-2015-EEE/bin/graphTestBench.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/FYP-2015-EEE_build/testbench/graphtestbench/Debug/graphTestBench.lib" /MACHINE:X64  /machine:x64 /debug graphTestBench.dir\Debug\moc_graphtestbench.obj
+         graphTestBench.dir\Debug\moc_graphtest.obj
+         graphTestBench.dir\Debug\moc_qcustomplot.obj
+         graphTestBench.dir\Debug\main_graphtestbench.obj
+         graphTestBench.dir\Debug\graphtestbench.obj
+         graphTestBench.dir\Debug\graphtest.obj
+         graphTestBench.dir\Debug\qcustomplot.obj
+         graphTestBench.vcxproj -> C:\FYP-2015-EEE\bin\graphTestBench.exe
+     1>Done Building Project "C:\FYP-2015-EEE_build\testbench\graphtestbench\graphTestBench.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.64

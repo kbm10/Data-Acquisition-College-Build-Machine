@@ -1,0 +1,2412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DE3E6433-896E-33C2-A82C-E366BFC89003}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>qwt-6.1.2</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE\lib\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qwt-6.1.2.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qwt-6.1.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE\lib\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qwt-6.1.2.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qwt-6.1.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qwt-6.1.2.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qwt-6.1.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qwt-6.1.2.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qwt-6.1.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;QWT_NO_SVG;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE\external\qwt\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/FYP-2015-EEE/external/qwt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE/external/qwt/CMakeLists.txt;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/FYP-2015-EEE/external/qwt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE/external/qwt/CMakeLists.txt;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/FYP-2015-EEE/external/qwt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE/external/qwt/CMakeLists.txt;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/FYP-2015-EEE/external/qwt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE/external/qwt/CMakeLists.txt;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\FYP-2015-EEE\external\qwt\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_abstract_legend.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_abstract_scale.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_scale.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_scale.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_scale.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_scale.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_scale.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_scale.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_scale.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_scale.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_scale.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_scale.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_scale.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_scale.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_abstract_slider.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_abstract_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_abstract_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_abstract_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_analog_clock.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_analog_clock.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_analog_clock.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_analog_clock.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_analog_clock.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_analog_clock.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_analog_clock.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_analog_clock.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_analog_clock.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_analog_clock.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_analog_clock.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_analog_clock.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_analog_clock.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_compass.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_compass.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_compass.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_compass.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_compass.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_compass.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_compass.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_compass.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_compass.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_compass.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_compass.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_compass.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_compass.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_counter.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_counter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_counter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_counter.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_counter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_counter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_counter.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_counter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_counter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_counter.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_counter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_counter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_counter.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_dial.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_dial.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dial.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dial.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_dial.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dial.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dial.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_dial.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dial.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dial.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_dial.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dial.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dial.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_dyngrid_layout.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dyngrid_layout.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dyngrid_layout.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dyngrid_layout.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_dyngrid_layout.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_knob.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_knob.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_knob.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_knob.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_knob.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_knob.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_knob.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_knob.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_knob.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_knob.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_knob.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_knob.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_knob.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_legend.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_legend.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_legend_label.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_legend_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_legend_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_legend_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_legend_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_legend_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_legend_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_magnifier.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_panner.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_picker.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_canvas.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_canvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_canvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_canvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_canvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_canvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_canvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_canvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_canvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_canvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_canvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_canvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_canvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_glcanvas.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_glcanvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_glcanvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_glcanvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_glcanvas.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_magnifier.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_magnifier.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_panner.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_panner.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_panner.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_panner.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_picker.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_picker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_picker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_picker.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_renderer.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_renderer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_renderer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_renderer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_renderer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_renderer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_renderer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_renderer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_renderer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_renderer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_renderer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_renderer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_renderer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_plot_zoomer.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_zoomer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_zoomer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_zoomer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_plot_zoomer.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_sampling_thread.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_sampling_thread.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_sampling_thread.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_sampling_thread.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_sampling_thread.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_sampling_thread.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_sampling_thread.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_sampling_thread.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_sampling_thread.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_sampling_thread.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_sampling_thread.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_sampling_thread.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_sampling_thread.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_scale_widget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_scale_widget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_scale_widget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_scale_widget.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_scale_widget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_scale_widget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_scale_widget.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_scale_widget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_scale_widget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_scale_widget.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_scale_widget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_scale_widget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_scale_widget.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_slider.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_slider.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_slider.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_slider.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_text_label.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_text_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_text_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_text_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_text_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_text_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_text_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_text_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_text_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_text_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_text_label.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_text_label.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_text_label.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_thermo.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_thermo.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_thermo.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_thermo.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_thermo.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_thermo.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_thermo.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_thermo.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_thermo.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_thermo.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_thermo.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_thermo.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_thermo.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\e75e4a253503b43e9a6267a2f9938d5d\moc_qwt_wheel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qwt-6.1.2/src/moc_qwt_wheel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_wheel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_wheel.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qwt-6.1.2/src/moc_qwt_wheel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_wheel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_wheel.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qwt-6.1.2/src/moc_qwt_wheel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_wheel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_wheel.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qwt-6.1.2/src/moc_qwt_wheel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_wheel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/e75e4a253503b43e9a6267a2f9938d5d/moc_qwt_wheel.cpp.rule;C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale_draw.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_arrow_button.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_clipper.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_color_map.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_column_symbol.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass_rose.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_curve_fitter.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date_scale_draw.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date_scale_engine.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial_needle.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_event_pattern.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_graphic.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_interval.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_interval_symbol.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_data.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_math.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_matrix_raster_data.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_null_paintdevice.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_painter.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_painter_command.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker_machine.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_pixel_matrix.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_abstract_barchart.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_axis.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_barchart.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_curve.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_dict.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_directpainter.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_grid.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_histogram.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_item.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_layout.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_legenditem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_marker.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_multi_barchart.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_rasteritem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_rescaler.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_scaleitem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_seriesitem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_shapeitem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_spectrocurve.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_spectrogram.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_svgitem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_textlabel.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_tradingcurve.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_xml.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoneitem.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_3d.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_data.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_mapper.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_polar.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_raster_data.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_round_scale_draw.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_div.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_draw.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_engine.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_map.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_series_data.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_spline.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_symbol.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_system_clock.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_engine.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_transform.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_widget_overlay.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/FYP-2015-EEE_build/ZERO_CHECK.vcxproj">
+      <Project>69ED9F7D-F54A-39D2-907C-531AF058043F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

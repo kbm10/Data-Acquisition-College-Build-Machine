@@ -1,0 +1,22 @@
+﻿Build started 03/12/2015 18:41:30.
+     1>Project "C:\FYP-2015-EEE_build\testbench\addchannel\test_addchannel.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/FYP-2015-EEE/testbench/addchannel/CMakeLists.txt
+         CMake does not need to re-run because C:\FYP-2015-EEE_build\testbench\addchannel\CMakeFiles\generate.stamp is up-to-date.
+         Generating __/__/src/moc_addchannel.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\FYP-2015-EEE_build\testbench\addchannel" /I"C:\FYP-2015-EEE\testbench\addchannel" /I"C:\FYP-2015-EEE\include" /I"C:\FYP-2015-EEE\include\extpkg" /I"C:\FYP-2015-EEE\src" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_addchannel.dir\Debug\\" /Fd"test_addchannel.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\FYP-2015-EEE_build\testbench\addchannel\__\__\src\moc_addchannel.cpp" "C:\FYP-2015-EEE\testbench\addchannel\main_addchannel.cpp" "C:\FYP-2015-EEE\src\addchannel.cpp"
+         moc_addchannel.cpp
+         main_addchannel.cpp
+         addchannel.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FYP-2015-EEE\bin\test_addchannel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/FYP-2015-EEE/bin/test_addchannel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/FYP-2015-EEE_build/testbench/addchannel/Debug/test_addchannel.lib" /MACHINE:X64  /machine:x64 /debug test_addchannel.dir\Debug\moc_addchannel.obj
+         test_addchannel.dir\Debug\main_addchannel.obj
+         test_addchannel.dir\Debug\addchannel.obj
+         test_addchannel.vcxproj -> C:\FYP-2015-EEE\bin\test_addchannel.exe
+     1>Done Building Project "C:\FYP-2015-EEE_build\testbench\addchannel\test_addchannel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.67

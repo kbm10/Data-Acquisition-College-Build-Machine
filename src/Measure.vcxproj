@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{493FE1BE-5276-347F-85E3-2BB4AAE78F17}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Measure</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Measure.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Measure</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Measure.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Measure</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Measure.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Measure</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Measure.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Measure</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++11 -g -O3 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPortd.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5PrintSupportd.lib;C:\FYP-2015-EEE\lib\qwt-6.1.2.lib;C:\FYP-2015-EEE\lib\fftw-3.3.4.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview_debug.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgetsd.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Guid.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/FYP-2015-EEE_build/src/Debug/Measure.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/FYP-2015-EEE/bin/Measure.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++11 -g -O3 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPort.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5PrintSupport.lib;C:\FYP-2015-EEE\lib\qwt-6.1.2.lib;C:\FYP-2015-EEE\lib\fftw-3.3.4.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview_debug.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Gui.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/FYP-2015-EEE_build/src/Release/Measure.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/FYP-2015-EEE/bin/Measure.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++11 -g -O3 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPort.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5PrintSupport.lib;C:\FYP-2015-EEE\lib\qwt-6.1.2.lib;C:\FYP-2015-EEE\lib\fftw-3.3.4.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview_debug.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Gui.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/FYP-2015-EEE_build/src/MinSizeRel/Measure.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/FYP-2015-EEE_build/src/MinSizeRel/Measure.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++11 -g -O3 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\FYP-2015-EEE\include;C:\FYP-2015-EEE\include\extpkg;C:\FYP-2015-EEE\src;C:\FYP-2015-EEE\external\tbb\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore;C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort;C:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPort.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5PrintSupport.lib;C:\FYP-2015-EEE\lib\qwt-6.1.2.lib;C:\FYP-2015-EEE\lib\fftw-3.3.4.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbmalloc_proxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbbproxy_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_debug.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview.lib;C:\FYP-2015-EEE\external\tbb\lib_windows\tbb_preview_debug.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Gui.lib;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/FYP-2015-EEE_build/src/RelWithDebInfo/Measure.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/FYP-2015-EEE_build/src/RelWithDebInfo/Measure.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/FYP-2015-EEE/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE/src/CMakeLists.txt;C:\FYP-2015-EEE\src\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\FYP-2015-EEE\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/FYP-2015-EEE/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE/src/CMakeLists.txt;C:\FYP-2015-EEE\src\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\FYP-2015-EEE\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/FYP-2015-EEE/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE/src/CMakeLists.txt;C:\FYP-2015-EEE\src\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\FYP-2015-EEE\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/FYP-2015-EEE/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/FYP-2015-EEE -BC:/FYP-2015-EEE_build --check-stamp-file C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE/src/CMakeLists.txt;C:\FYP-2015-EEE\src\CMakeLists.txt;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\FYP-2015-EEE\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_mainwindow.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_mainwindow.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_mainwindow.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_mainwindow.cpp.rule;C:\FYP-2015-EEE\src\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_mainwindow.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_mainwindow.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_mainwindow.cpp.rule;C:\FYP-2015-EEE\src\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_mainwindow.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_mainwindow.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_mainwindow.cpp.rule;C:\FYP-2015-EEE\src\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_mainwindow.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_mainwindow.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_mainwindow.cpp.rule;C:\FYP-2015-EEE\src\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_grapher.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_grapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_grapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_grapher.cpp.rule;C:\FYP-2015-EEE\src\grapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_grapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_grapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_grapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_grapher.cpp.rule;C:\FYP-2015-EEE\src\grapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_grapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_grapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_grapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_grapher.cpp.rule;C:\FYP-2015-EEE\src\grapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_grapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_grapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_grapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_grapher.cpp.rule;C:\FYP-2015-EEE\src\grapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_grapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_fftgrapher.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_fftgrapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftgrapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftgrapher.cpp.rule;C:\FYP-2015-EEE\src\fftgrapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_fftgrapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftgrapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftgrapher.cpp.rule;C:\FYP-2015-EEE\src\fftgrapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_fftgrapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftgrapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftgrapher.cpp.rule;C:\FYP-2015-EEE\src\fftgrapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_fftgrapher.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftgrapher.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftgrapher.cpp.rule;C:\FYP-2015-EEE\src\fftgrapher.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_deviceio.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_deviceio.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_deviceio.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_deviceio.cpp.rule;C:\FYP-2015-EEE\src\deviceio.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_deviceio.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_deviceio.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_deviceio.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_deviceio.cpp.rule;C:\FYP-2015-EEE\src\deviceio.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_deviceio.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_deviceio.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_deviceio.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_deviceio.cpp.rule;C:\FYP-2015-EEE\src\deviceio.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_deviceio.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_deviceio.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_deviceio.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_deviceio.cpp.rule;C:\FYP-2015-EEE\src\deviceio.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_deviceio.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_fftoptions.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_fftoptions.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftoptions.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftoptions.cpp.rule;C:\FYP-2015-EEE\src\fftoptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_fftoptions.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftoptions.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftoptions.cpp.rule;C:\FYP-2015-EEE\src\fftoptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_fftoptions.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftoptions.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftoptions.cpp.rule;C:\FYP-2015-EEE\src\fftoptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_fftoptions.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_fftoptions.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_fftoptions.cpp.rule;C:\FYP-2015-EEE\src\fftoptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_tabledata.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_tabledata.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_tabledata.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_tabledata.cpp.rule;C:\FYP-2015-EEE\src\tabledata.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_tabledata.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_tabledata.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_tabledata.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_tabledata.cpp.rule;C:\FYP-2015-EEE\src\tabledata.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_tabledata.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_tabledata.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_tabledata.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_tabledata.cpp.rule;C:\FYP-2015-EEE\src\tabledata.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_tabledata.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_tabledata.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_tabledata.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_tabledata.cpp.rule;C:\FYP-2015-EEE\src\tabledata.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_tabledata.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_configtoolbar.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_configtoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_configtoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_configtoolbar.cpp.rule;C:\FYP-2015-EEE\src\configtoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_configtoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_configtoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_configtoolbar.cpp.rule;C:\FYP-2015-EEE\src\configtoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_configtoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_configtoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_configtoolbar.cpp.rule;C:\FYP-2015-EEE\src\configtoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_configtoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_configtoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_configtoolbar.cpp.rule;C:\FYP-2015-EEE\src\configtoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_signaltoolbar.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_signaltoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_signaltoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_signaltoolbar.cpp.rule;C:\FYP-2015-EEE\src\signaltoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_signaltoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_signaltoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_signaltoolbar.cpp.rule;C:\FYP-2015-EEE\src\signaltoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_signaltoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_signaltoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_signaltoolbar.cpp.rule;C:\FYP-2015-EEE\src\signaltoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_signaltoolbar.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_signaltoolbar.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_signaltoolbar.cpp.rule;C:\FYP-2015-EEE\src\signaltoolbar.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_hwinterface.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_hwinterface.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_hwinterface.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_hwinterface.cpp.rule;C:\FYP-2015-EEE\src\hwinterface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_hwinterface.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_hwinterface.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_hwinterface.cpp.rule;C:\FYP-2015-EEE\src\hwinterface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_hwinterface.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_hwinterface.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_hwinterface.cpp.rule;C:\FYP-2015-EEE\src\hwinterface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_hwinterface.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\FYP-2015-EEE_build\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.4.2\5.4\msvc2013_64\bin\moc.exe @C:/FYP-2015-EEE_build/src/moc_hwinterface.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/FYP-2015-EEE_build/CMakeFiles/9e194ea6e3ee23ba40845e5ff054ac99/moc_hwinterface.cpp.rule;C:\FYP-2015-EEE\src\hwinterface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FYP-2015-EEE\src\mainwindow.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\grapher.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftgrapher.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\deviceio.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftoptions.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\tabledata.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\configtoolbar.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\signaltoolbar.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\hwinterface.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftbuffer.h" />
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftwindow.h" />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_grapher.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_deviceio.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_tabledata.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\main.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\mainwindow.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\grapher.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftgrapher.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\deviceio.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftoptions.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftbuffer.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftwindow.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\tabledata.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\configtoolbar.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\signaltoolbar.cpp"  />
+    <ClCompile Include="C:\FYP-2015-EEE\src\hwinterface.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/FYP-2015-EEE_build/ZERO_CHECK.vcxproj">
+      <Project>69ED9F7D-F54A-39D2-907C-531AF058043F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/FYP-2015-EEE_build/external/fftw/fftw-3.3.4.vcxproj">
+      <Project>EA813703-A3FF-3277-8D48-C96D7927E18A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2.vcxproj">
+      <Project>DE3E6433-896E-33C2-A82C-E366BFC89003</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

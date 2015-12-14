@@ -1,0 +1,8 @@
+-IC:/FYP-2015-EEE/include
+-IC:/FYP-2015-EEE/include/extpkg
+-IC:/FYP-2015-EEE/src
+-IC:/FYP-2015-EEE/external/tbb/include
+-DWIN32
+-o
+C:/FYP-2015-EEE_build/src/moc_configtoolbar.cpp
+C:/FYP-2015-EEE/src/configtoolbar.h

@@ -1,0 +1,326 @@
+﻿Build started 03/12/2015 18:41:30.
+     1>Project "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/FYP-2015-EEE/external/qwt/CMakeLists.txt
+         CMake does not need to re-run because C:\FYP-2015-EEE_build\external\qwt\CMakeFiles\generate.stamp is up-to-date.
+         Generating qwt-6.1.2/src/moc_qwt_abstract_legend.cpp
+         Generating qwt-6.1.2/src/moc_qwt_abstract_scale.cpp
+         Generating qwt-6.1.2/src/moc_qwt_abstract_slider.cpp
+         Generating qwt-6.1.2/src/moc_qwt_analog_clock.cpp
+         Generating qwt-6.1.2/src/moc_qwt_compass.cpp
+         Generating qwt-6.1.2/src/moc_qwt_counter.cpp
+         Generating qwt-6.1.2/src/moc_qwt_dial.cpp
+         Generating qwt-6.1.2/src/moc_qwt_dyngrid_layout.cpp
+         Generating qwt-6.1.2/src/moc_qwt_knob.cpp
+         Generating qwt-6.1.2/src/moc_qwt_legend.cpp
+         Generating qwt-6.1.2/src/moc_qwt_legend_label.cpp
+         Generating qwt-6.1.2/src/moc_qwt_magnifier.cpp
+         Generating qwt-6.1.2/src/moc_qwt_panner.cpp
+         Generating qwt-6.1.2/src/moc_qwt_picker.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_canvas.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_glcanvas.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_magnifier.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_panner.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_picker.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_renderer.cpp
+         Generating qwt-6.1.2/src/moc_qwt_plot_zoomer.cpp
+         Generating qwt-6.1.2/src/moc_qwt_sampling_thread.cpp
+         Generating qwt-6.1.2/src/moc_qwt_scale_widget.cpp
+         Generating qwt-6.1.2/src/moc_qwt_slider.cpp
+         Generating qwt-6.1.2/src/moc_qwt_text_label.cpp
+         Generating qwt-6.1.2/src/moc_qwt_thermo.cpp
+         Generating qwt-6.1.2/src/moc_qwt_wheel.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\FYP-2015-EEE\include" /I"C:\FYP-2015-EEE\include\extpkg" /I"C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSvg /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtOpenGL /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtConcurrent /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /D QT_OPENGL_LIB /D QT_CONCURRENT_LIB /D QWT_NO_SVG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"qwt-6.1.2.dir\Debug\\" /Fd"qwt-6.1.2.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_legend.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_scale.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_abstract_slider.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_analog_clock.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_compass.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_counter.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dial.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_dyngrid_layout.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_knob.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_legend_label.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_magnifier.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_panner.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_picker.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_canvas.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_glcanvas.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_magnifier.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_panner.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_picker.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_renderer.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_plot_zoomer.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_sampling_thread.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_scale_widget.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_slider.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_text_label.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_thermo.cpp" "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2\src\moc_qwt_wheel.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_legend.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_scale_draw.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_abstract_slider.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_analog_clock.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_arrow_button.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_clipper.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_color_map.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_column_symbol.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_compass_rose.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_counter.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_curve_fitter.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date_scale_draw.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_date_scale_engine.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dial_needle.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_dyngrid_layout.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_event_pattern.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_graphic.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_interval.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_interval_symbol.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_knob.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_data.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_legend_label.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_magnifier.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_math.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_matrix_raster_data.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_null_paintdevice.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_painter.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_painter_command.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_panner.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_picker_machine.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_pixel_matrix.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_abstract_barchart.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_axis.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_barchart.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_canvas.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_curve.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_dict.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_directpainter.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_glcanvas.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_grid.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_histogram.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_item.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_layout.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_legenditem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_magnifier.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_marker.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_multi_barchart.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_panner.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_picker.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_rasteritem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_renderer.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_rescaler.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_scaleitem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_seriesitem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_shapeitem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_spectrocurve.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_spectrogram.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_svgitem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_textlabel.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_tradingcurve.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_xml.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoneitem.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_zoomer.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_3d.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_data.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_mapper.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_polar.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_raster_data.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_round_scale_draw.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_sampling_thread.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_div.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_draw.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_engine.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_map.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_scale_widget.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_series_data.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_slider.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_spline.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_symbol.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_system_clock.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_engine.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_text_label.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_thermo.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_transform.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_wheel.cpp" "C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_widget_overlay.cpp"
+         moc_qwt_abstract_legend.cpp
+         moc_qwt_abstract_scale.cpp
+         moc_qwt_abstract_slider.cpp
+         moc_qwt_analog_clock.cpp
+         moc_qwt_compass.cpp
+         moc_qwt_counter.cpp
+         moc_qwt_dial.cpp
+         moc_qwt_dyngrid_layout.cpp
+         moc_qwt_knob.cpp
+         moc_qwt_legend.cpp
+         moc_qwt_legend_label.cpp
+         moc_qwt_magnifier.cpp
+         moc_qwt_panner.cpp
+         moc_qwt_picker.cpp
+         moc_qwt_plot.cpp
+         moc_qwt_plot_canvas.cpp
+         moc_qwt_plot_glcanvas.cpp
+         moc_qwt_plot_magnifier.cpp
+         moc_qwt_plot_panner.cpp
+         moc_qwt_plot_picker.cpp
+         Generating Code...
+         Compiling...
+         moc_qwt_plot_renderer.cpp
+         moc_qwt_plot_zoomer.cpp
+         moc_qwt_sampling_thread.cpp
+         moc_qwt_scale_widget.cpp
+         moc_qwt_slider.cpp
+         moc_qwt_text_label.cpp
+         moc_qwt_thermo.cpp
+         moc_qwt_wheel.cpp
+         qwt_abstract_legend.cpp
+         qwt_abstract_scale.cpp
+         qwt_abstract_scale_draw.cpp
+         qwt_abstract_slider.cpp
+         qwt_analog_clock.cpp
+         qwt_arrow_button.cpp
+         qwt_clipper.cpp
+         qwt_color_map.cpp
+         qwt_column_symbol.cpp
+         qwt_compass.cpp
+         qwt_compass_rose.cpp
+         qwt_counter.cpp
+         Generating Code...
+         Compiling...
+         qwt_curve_fitter.cpp
+         qwt_date.cpp
+         qwt_date_scale_draw.cpp
+         qwt_date_scale_engine.cpp
+         qwt_dial.cpp
+         qwt_dial_needle.cpp
+         qwt_dyngrid_layout.cpp
+         qwt_event_pattern.cpp
+         qwt_graphic.cpp
+         qwt_interval.cpp
+         qwt_interval_symbol.cpp
+         qwt_knob.cpp
+         qwt_legend.cpp
+         qwt_legend_data.cpp
+         qwt_legend_label.cpp
+         qwt_magnifier.cpp
+         qwt_math.cpp
+         qwt_matrix_raster_data.cpp
+         qwt_null_paintdevice.cpp
+         qwt_painter.cpp
+         Generating Code...
+         Compiling...
+         qwt_painter_command.cpp
+         qwt_panner.cpp
+         qwt_picker.cpp
+         qwt_picker_machine.cpp
+         qwt_pixel_matrix.cpp
+         qwt_plot.cpp
+         qwt_plot_abstract_barchart.cpp
+         qwt_plot_axis.cpp
+         qwt_plot_barchart.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_barchart.cpp(223): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_barchart.cpp(401): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_barchart.cpp(408): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_canvas.cpp
+         qwt_plot_curve.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_curve.cpp(358): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_curve.cpp(360): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_curve.cpp(408): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_dict.cpp
+         qwt_plot_directpainter.cpp
+         qwt_plot_glcanvas.cpp
+         qwt_plot_grid.cpp
+         qwt_plot_histogram.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_histogram.cpp(341): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_intervalcurve.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(325): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(378): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(454): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(459): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(466): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_intervalcurve.cpp(467): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_item.cpp
+         qwt_plot_layout.cpp
+         qwt_plot_legenditem.cpp
+         Generating Code...
+         Compiling...
+         qwt_plot_magnifier.cpp
+         qwt_plot_marker.cpp
+         qwt_plot_multi_barchart.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_multi_barchart.cpp(380): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_panner.cpp
+         qwt_plot_picker.cpp
+         qwt_plot_rasteritem.cpp
+         qwt_plot_renderer.cpp
+         qwt_plot_rescaler.cpp
+         qwt_plot_scaleitem.cpp
+         qwt_plot_seriesitem.cpp
+         qwt_plot_shapeitem.cpp
+         qwt_plot_spectrocurve.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_spectrocurve.cpp(244): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_spectrogram.cpp
+         qwt_plot_svgitem.cpp
+         qwt_plot_textlabel.cpp
+         qwt_plot_tradingcurve.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_plot_tradingcurve.cpp(386): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         qwt_plot_xml.cpp
+         qwt_plot_zoneitem.cpp
+         qwt_plot_zoomer.cpp
+         qwt_point_3d.cpp
+         Generating Code...
+         Compiling...
+         qwt_point_data.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_data.cpp(40): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_data.cpp(43): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_point_data.cpp(276): warning C4267: 'argument' : conversion from 'size_t' to 'uint', possible loss of data
+         qwt_point_mapper.cpp
+         qwt_point_polar.cpp
+         qwt_raster_data.cpp
+         qwt_round_scale_draw.cpp
+         qwt_sampling_thread.cpp
+         qwt_scale_div.cpp
+         qwt_scale_draw.cpp
+         qwt_scale_engine.cpp
+         qwt_scale_map.cpp
+         qwt_scale_widget.cpp
+         qwt_series_data.cpp
+     1>C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_series_data.cpp(81): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\FYP-2015-EEE\external\qwt\qwt-6.1.2\src\qwt_series_data.cpp(127) : see reference to function template instantiation 'QRectF qwtBoundingRectT<QPointF>(const QwtSeriesData<T> &,int,int)' being compiled
+                 with
+                 [
+                     T=QPointF
+                 ]
+         qwt_slider.cpp
+         qwt_spline.cpp
+         qwt_symbol.cpp
+         qwt_system_clock.cpp
+         qwt_text.cpp
+         qwt_text_engine.cpp
+         qwt_text_label.cpp
+         qwt_thermo.cpp
+         Generating Code...
+         Compiling...
+         qwt_transform.cpp
+         qwt_wheel.cpp
+         qwt_widget_overlay.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\FYP-2015-EEE\lib\qwt-6.1.2.lib" /NOLOGO /MACHINE:X64  /machine:x64 "qwt-6.1.2.dir\Debug\moc_qwt_abstract_legend.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_abstract_scale.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_abstract_slider.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_analog_clock.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_compass.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_counter.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_dial.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_dyngrid_layout.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_knob.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_legend.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_legend_label.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_magnifier.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_panner.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_picker.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_canvas.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_glcanvas.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_magnifier.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_panner.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_picker.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_renderer.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_plot_zoomer.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_sampling_thread.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_scale_widget.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_slider.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_text_label.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_thermo.obj"
+         "qwt-6.1.2.dir\Debug\moc_qwt_wheel.obj"
+         "qwt-6.1.2.dir\Debug\qwt_abstract_legend.obj"
+         "qwt-6.1.2.dir\Debug\qwt_abstract_scale.obj"
+         "qwt-6.1.2.dir\Debug\qwt_abstract_scale_draw.obj"
+         "qwt-6.1.2.dir\Debug\qwt_abstract_slider.obj"
+         "qwt-6.1.2.dir\Debug\qwt_analog_clock.obj"
+         "qwt-6.1.2.dir\Debug\qwt_arrow_button.obj"
+         "qwt-6.1.2.dir\Debug\qwt_clipper.obj"
+         "qwt-6.1.2.dir\Debug\qwt_color_map.obj"
+         "qwt-6.1.2.dir\Debug\qwt_column_symbol.obj"
+         "qwt-6.1.2.dir\Debug\qwt_compass.obj"
+         "qwt-6.1.2.dir\Debug\qwt_compass_rose.obj"
+         "qwt-6.1.2.dir\Debug\qwt_counter.obj"
+         "qwt-6.1.2.dir\Debug\qwt_curve_fitter.obj"
+         "qwt-6.1.2.dir\Debug\qwt_date.obj"
+         "qwt-6.1.2.dir\Debug\qwt_date_scale_draw.obj"
+         "qwt-6.1.2.dir\Debug\qwt_date_scale_engine.obj"
+         "qwt-6.1.2.dir\Debug\qwt_dial.obj"
+         "qwt-6.1.2.dir\Debug\qwt_dial_needle.obj"
+         "qwt-6.1.2.dir\Debug\qwt_dyngrid_layout.obj"
+         "qwt-6.1.2.dir\Debug\qwt_event_pattern.obj"
+         "qwt-6.1.2.dir\Debug\qwt_graphic.obj"
+         "qwt-6.1.2.dir\Debug\qwt_interval.obj"
+         "qwt-6.1.2.dir\Debug\qwt_interval_symbol.obj"
+         "qwt-6.1.2.dir\Debug\qwt_knob.obj"
+         "qwt-6.1.2.dir\Debug\qwt_legend.obj"
+         "qwt-6.1.2.dir\Debug\qwt_legend_data.obj"
+         "qwt-6.1.2.dir\Debug\qwt_legend_label.obj"
+         "qwt-6.1.2.dir\Debug\qwt_magnifier.obj"
+         "qwt-6.1.2.dir\Debug\qwt_math.obj"
+         "qwt-6.1.2.dir\Debug\qwt_matrix_raster_data.obj"
+         "qwt-6.1.2.dir\Debug\qwt_null_paintdevice.obj"
+         "qwt-6.1.2.dir\Debug\qwt_painter.obj"
+         "qwt-6.1.2.dir\Debug\qwt_painter_command.obj"
+         "qwt-6.1.2.dir\Debug\qwt_panner.obj"
+         "qwt-6.1.2.dir\Debug\qwt_picker.obj"
+         "qwt-6.1.2.dir\Debug\qwt_picker_machine.obj"
+         "qwt-6.1.2.dir\Debug\qwt_pixel_matrix.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_abstract_barchart.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_axis.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_barchart.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_canvas.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_curve.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_dict.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_directpainter.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_glcanvas.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_grid.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_histogram.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_intervalcurve.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_item.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_layout.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_legenditem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_magnifier.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_marker.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_multi_barchart.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_panner.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_picker.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_rasteritem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_renderer.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_rescaler.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_scaleitem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_seriesitem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_shapeitem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_spectrocurve.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_spectrogram.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_svgitem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_textlabel.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_tradingcurve.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_xml.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_zoneitem.obj"
+         "qwt-6.1.2.dir\Debug\qwt_plot_zoomer.obj"
+         "qwt-6.1.2.dir\Debug\qwt_point_3d.obj"
+         "qwt-6.1.2.dir\Debug\qwt_point_data.obj"
+         "qwt-6.1.2.dir\Debug\qwt_point_mapper.obj"
+         "qwt-6.1.2.dir\Debug\qwt_point_polar.obj"
+         "qwt-6.1.2.dir\Debug\qwt_raster_data.obj"
+         "qwt-6.1.2.dir\Debug\qwt_round_scale_draw.obj"
+         "qwt-6.1.2.dir\Debug\qwt_sampling_thread.obj"
+         "qwt-6.1.2.dir\Debug\qwt_scale_div.obj"
+         "qwt-6.1.2.dir\Debug\qwt_scale_draw.obj"
+         "qwt-6.1.2.dir\Debug\qwt_scale_engine.obj"
+         "qwt-6.1.2.dir\Debug\qwt_scale_map.obj"
+         "qwt-6.1.2.dir\Debug\qwt_scale_widget.obj"
+         "qwt-6.1.2.dir\Debug\qwt_series_data.obj"
+         "qwt-6.1.2.dir\Debug\qwt_slider.obj"
+         "qwt-6.1.2.dir\Debug\qwt_spline.obj"
+         "qwt-6.1.2.dir\Debug\qwt_symbol.obj"
+         "qwt-6.1.2.dir\Debug\qwt_system_clock.obj"
+         "qwt-6.1.2.dir\Debug\qwt_text.obj"
+         "qwt-6.1.2.dir\Debug\qwt_text_engine.obj"
+         "qwt-6.1.2.dir\Debug\qwt_text_label.obj"
+         "qwt-6.1.2.dir\Debug\qwt_thermo.obj"
+         "qwt-6.1.2.dir\Debug\qwt_transform.obj"
+         "qwt-6.1.2.dir\Debug\qwt_wheel.obj"
+         "qwt-6.1.2.dir\Debug\qwt_widget_overlay.obj"
+         qwt-6.1.2.vcxproj -> C:\FYP-2015-EEE\lib\qwt-6.1.2.lib
+     1>Done Building Project "C:\FYP-2015-EEE_build\external\qwt\qwt-6.1.2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:04.08

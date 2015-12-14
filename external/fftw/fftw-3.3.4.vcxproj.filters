@@ -1,0 +1,2100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\apiplan.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\configure.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-r2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-split-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-split-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute-split-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\execute.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\export-wisdom-to-file.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\export-wisdom-to-string.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\export-wisdom.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\f77api.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\flops.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\forget-wisdom.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\import-system-wisdom.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\import-wisdom-from-file.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\import-wisdom-from-string.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\import-wisdom.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\malloc.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\map-r2r-kind.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mapflags.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mkprinter-file.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mkprinter-str.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mktensor-iodims.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mktensor-iodims64.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mktensor-rowmajor.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-1d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-2d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-3d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-c2r-1d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-c2r-2d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-c2r-3d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-r2c-1d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-r2c-2d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-r2c-3d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-r2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-r2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-split-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-split-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru64-split-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-many-dft-c2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-many-dft-r2c.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-many-dft.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-many-r2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-r2r-1d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-r2r-2d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-r2r-3d.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-r2r.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\print-plan.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\rdft2-pad.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\the-planner.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\version.c">
+      <Filter>fftw\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\bluestein.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\buffered.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\conf.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\ct.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\dftw-direct.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\dftw-directsq.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\dftw-generic.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\dftw-genericbuf.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\direct.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\generic.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\indirect-transpose.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\indirect.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\kdft-dif.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\kdft-difsq.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\kdft-dit.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\kdft.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\nop.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\plan.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\problem.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\rader.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\rank-geq2.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\solve.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\vrank-geq1.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\zero.c">
+      <Filter>fftw\dft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\n.c">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\t.c">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\codlist.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_10.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_11.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_12.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_13.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_14.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_15.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_16.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_2.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_20.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_25.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_3.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_32.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_4.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_5.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_6.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_64.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_7.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_8.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\n1_9.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_2.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_3.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_4.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_5.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_6.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\q1_8.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_10.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_12.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_15.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_16.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_2.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_20.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_25.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_3.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_32.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_4.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_5.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_6.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_64.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_7.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_8.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t1_9.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_10.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_16.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_20.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_25.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_32.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_4.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_5.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_64.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\codelets\t2_8.c">
+      <Filter>fftw\dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\codlist.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\genus.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_11.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_128.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_13.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_14.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_15.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1bv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_11.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_128.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_13.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_14.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_15.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n1fv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_14.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_14.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2sv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2sv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2sv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2sv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\n2sv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1bv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1bv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1fv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1fv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\q1fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1buv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_15.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1bv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fuv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_12.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_15.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_3.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_6.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_7.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1fv_9.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1sv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1sv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1sv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1sv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t1sv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_2.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_64.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2sv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2sv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2sv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t2sv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3bv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_10.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_16.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_20.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_25.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_32.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_4.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_5.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\sse2\t3fv_8.c">
+      <Filter>fftw\dft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\align.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\alloc.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\assert.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\awake.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\buffered.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\cpy1d.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\cpy2d-pair.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\cpy2d.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\ct.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\debug.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\extract-reim.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\hash.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\iabs.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\kalloc.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\md5-1.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\md5.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\minmax.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\ops.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\pickdim.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\plan.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\planner.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\primes.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\print.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\problem.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\rader.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\scan.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\solver.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\solvtab.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\stride.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor1.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor2.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor3.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor4.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor5.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor7.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor8.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tensor9.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\tile2d.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\timer.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\transpose.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\trig.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\twiddle.c">
+      <Filter>fftw\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\buffered.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\buffered2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\conf.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\ct-hc2c-direct.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\ct-hc2c.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\dft-r2hc.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\dht-r2hc.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\dht-rader.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\direct-r2c.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\direct-r2r.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\direct2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\generic.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\hc2hc-direct.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\hc2hc-generic.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\hc2hc.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\indirect.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\khc2c.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\khc2hc.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\kr2c.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\kr2r.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\nop.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\nop2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\plan.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\plan2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\problem.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\problem2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rank-geq2-rdft2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rank-geq2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rank0-rdft2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rank0.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft-dht.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft2-inplace-strides.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft2-rdft.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft2-strides.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft2-tensor-max-index.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\solve.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\solve2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\vrank-geq1-rdft2.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\vrank-geq1.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\vrank3-transpose.c">
+      <Filter>fftw\rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hc2c.c">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hfb.c">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2c.c">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2r.c">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\codlist.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_25.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_5.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb2_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_10.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_12.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_15.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_2.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_25.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_3.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_5.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_6.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_64.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_7.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hb_9.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb2_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb2_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb2_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb2_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb2_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft2_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft2_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft2_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft2_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft2_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_10.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_12.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_2.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_6.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cbdft_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_10.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_12.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_2.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_6.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\hc2cb_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_10.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_12.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_15.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_2.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_25.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_3.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_5.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_6.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_64.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_7.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cbIII_9.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_10.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_11.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_12.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_128.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_13.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_14.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_15.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_16.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_2.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_20.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_25.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_3.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_32.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_4.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_5.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_6.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_64.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_7.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_8.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb\r2cb_9.c">
+      <Filter>fftw\rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\codlist.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf2_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf2_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf2_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf2_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf2_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft2_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft2_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft2_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft2_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft2_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_10.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_12.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_2.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_6.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cfdft_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_10.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_12.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_2.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_6.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hc2cf_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_25.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_5.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf2_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_10.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_12.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_15.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_2.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_25.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_3.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_5.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_6.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_64.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_7.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\hf_9.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_10.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_12.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_15.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_2.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_25.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_3.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_5.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_6.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_64.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_7.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cfII_9.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_10.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_11.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_12.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_128.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_13.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_14.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_15.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_16.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_2.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_20.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_25.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_3.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_32.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_4.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_5.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_6.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_64.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_7.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_8.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf\r2cf_9.c">
+      <Filter>fftw\rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2r\codlist.c">
+      <Filter>fftw\rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2r\e01_8.c">
+      <Filter>fftw\rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2r\e10_8.c">
+      <Filter>fftw\rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\codlist.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\genus.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_10.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_12.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_16.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_2.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_20.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_32.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_4.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_6.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cbdftv_8.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_10.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_12.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_16.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_2.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_20.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_32.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_4.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_6.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\sse2\hc2cfdftv_8.c">
+      <Filter>fftw\rdft\simd\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\conf.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\redft00e-r2hc-pad.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\redft00e-r2hc.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft00e-splitradix.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft010e-r2hc.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft11e-r2hc-odd.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft11e-r2hc.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft11e-radix2.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\rodft00e-r2hc-pad.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\rodft00e-r2hc.c">
+      <Filter>fftw\reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\altivec.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\avx.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\neon.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\sse2-nonportable.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\sse2.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\taint.c">
+      <Filter>fftw\simd_support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\api.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\f77funcs.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\fftw3.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\guru.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\guru64.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\mktensor-iodims.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft-c2r.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft-r2c.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-dft.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-r2r.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft-c2r.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft-r2c.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\plan-guru-split-dft.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\api\x77.h">
+      <Filter>fftw\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\codelet-dft.h">
+      <Filter>fftw\dft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\ct.h">
+      <Filter>fftw\dft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\dft.h">
+      <Filter>fftw\dft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\f.h">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\n.h">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\q.h">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\scalar\t.h">
+      <Filter>fftw\dft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\n1b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\n1f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\n2b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\n2f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\n2s.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\q1b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\q1f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t1b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t1bu.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t1f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t1fu.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t2b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t2f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t3b.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\t3f.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\dft\simd\ts.h">
+      <Filter>fftw\dft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\cycle.h">
+      <Filter>fftw\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\kernel\ifftw.h">
+      <Filter>fftw\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\codelet-rdft.h">
+      <Filter>fftw\rdft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\ct-hc2c.h">
+      <Filter>fftw\rdft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\hc2hc.h">
+      <Filter>fftw\rdft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\rdft.h">
+      <Filter>fftw\rdft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hb.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hc2cb.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hc2cf.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\hf.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cb.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cbIII.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cf.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2cfII.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\scalar\r2r.h">
+      <Filter>fftw\rdft\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\hc2cbv.h">
+      <Filter>fftw\rdft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\rdft\simd\hc2cfv.h">
+      <Filter>fftw\rdft\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\reodft\reodft.h">
+      <Filter>fftw\reodft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\amd64-cpuid.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\simd-altivec.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\simd-avx.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\simd-common.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\simd-neon.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\simd-sse2.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\external\fftw\fftw-3.3.4\simd-support\x86-cpuid.h">
+      <Filter>fftw\simd_support</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE\external\fftw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fftw\rdft\scalar\r2cb">
+      <UniqueIdentifier>{C694A45D-B118-3ED4-98E0-10A0926592FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft\scalar\r2cf">
+      <UniqueIdentifier>{EDC55FA2-4F5F-34A4-9AD7-E643DE9AD118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft\scalar\r2r">
+      <UniqueIdentifier>{770850E3-D28B-384B-AF75-421CF84D1DA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\dft\scalar">
+      <UniqueIdentifier>{E25B23E1-53A1-3336-9FCE-CDF63B511026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\dft\simd">
+      <UniqueIdentifier>{761CC1D9-8491-39CE-8BD1-4DA970D79FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft\scalar">
+      <UniqueIdentifier>{727E14F1-8000-3E2F-81EF-E1C4963967E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft\simd">
+      <UniqueIdentifier>{AB9BEA0C-022E-3344-9D1F-528BFB51B85E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\dft\scalar\codelets">
+      <UniqueIdentifier>{1C09E103-41E1-3D08-B255-C23645D72E53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\dft\simd\sse2">
+      <UniqueIdentifier>{58BE0A6D-249D-3D46-BBC6-96E1EB7D371F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft\simd\sse2">
+      <UniqueIdentifier>{ADE8E7A2-F5CD-3F9B-AADE-499170237813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw">
+      <UniqueIdentifier>{7FBA0895-907A-3380-A93E-106215DF041E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\api">
+      <UniqueIdentifier>{BDF48D45-77AC-35A4-B69F-DD2ADB59B548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\dft">
+      <UniqueIdentifier>{22EE3566-88EA-3602-BE64-4574F428DF98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\kernel">
+      <UniqueIdentifier>{2A39FA60-879A-36A3-936E-C6F2BADF5A87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\rdft">
+      <UniqueIdentifier>{62E1AD4E-8F74-3866-88ED-BD3C8199E6EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\reodft">
+      <UniqueIdentifier>{2B9632B3-BC0E-361E-8FED-06BF4BA22274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\simd_support">
+      <UniqueIdentifier>{8AF8CB87-DACA-3B75-BE1E-34C07D5124EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+-IC:/FYP-2015-EEE/include
+-IC:/FYP-2015-EEE/include/extpkg
+-IC:/FYP-2015-EEE/src
+-IC:/FYP-2015-EEE/testbench/addchannel
+-IC:/FYP-2015-EEE_build/testbench/addchannel
+-DWIN32
+-o
+C:/FYP-2015-EEE_build/testbench/addchannel/__/__/src/moc_addchannel.cpp
+C:/FYP-2015-EEE/src/addchannel.h

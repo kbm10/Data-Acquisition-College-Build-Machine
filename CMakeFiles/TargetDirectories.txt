@@ -1,0 +1,10 @@
+C:/FYP-2015-EEE_build/src/CMakeFiles/Measure.dir
+C:/FYP-2015-EEE_build/testbench/addchannel/CMakeFiles/test_addchannel.dir
+C:/FYP-2015-EEE_build/external/fftw/CMakeFiles/fftw-3.3.4.dir
+C:/FYP-2015-EEE_build/external/qwt/CMakeFiles/ALL_BUILD.dir
+C:/FYP-2015-EEE_build/external/qwt/CMakeFiles/qwt-6.1.2.dir
+C:/FYP-2015-EEE_build/testbench/deviceio/CMakeFiles/test_deviceio.dir
+C:/FYP-2015-EEE_build/testbench/qwttest/CMakeFiles/qwttest.dir
+C:/FYP-2015-EEE_build/testbench/graphtestbench/CMakeFiles/graphTestBench.dir
+C:/FYP-2015-EEE_build/CMakeFiles/ZERO_CHECK.dir
+C:/FYP-2015-EEE_build/testbench/fftoptions/CMakeFiles/test_fftoptions.dir

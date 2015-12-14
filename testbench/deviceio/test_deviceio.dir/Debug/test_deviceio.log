@@ -1,0 +1,20 @@
+﻿Build started 11/12/2015 15:39:34.
+     1>Project "C:\FYP-2015-EEE_build\testbench\deviceio\test_deviceio.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Generating __/__/src/moc_deviceio.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\FYP-2015-EEE_build\testbench\deviceio" /I"C:\FYP-2015-EEE\testbench\deviceio" /I"C:\FYP-2015-EEE\include" /I"C:\FYP-2015-EEE\include\extpkg" /I"C:\FYP-2015-EEE\src" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtSerialPort /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_deviceio.dir\Debug\\" /Fd"test_deviceio.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\FYP-2015-EEE\src\deviceio.cpp" "C:\FYP-2015-EEE\testbench\deviceio\main_deviceio.cpp" "C:\FYP-2015-EEE_build\testbench\deviceio\__\__\src\moc_deviceio.cpp"
+         deviceio.cpp
+         main_deviceio.cpp
+         moc_deviceio.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FYP-2015-EEE\bin\test_deviceio.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5SerialPortd.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/FYP-2015-EEE/bin/test_deviceio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/FYP-2015-EEE_build/testbench/deviceio/Debug/test_deviceio.lib" /MACHINE:X64  /machine:x64 /debug test_deviceio.dir\Debug\moc_deviceio.obj
+         test_deviceio.dir\Debug\main_deviceio.obj
+         test_deviceio.dir\Debug\deviceio.obj
+         test_deviceio.vcxproj -> C:\FYP-2015-EEE\bin\test_deviceio.exe
+     1>Done Building Project "C:\FYP-2015-EEE_build\testbench\deviceio\test_deviceio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.03

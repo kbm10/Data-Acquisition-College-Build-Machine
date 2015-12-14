@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\FYP-2015-EEE_build\testbench\deviceio\__\__\src\moc_deviceio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\testbench\deviceio\main_deviceio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\deviceio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FYP-2015-EEE\src\deviceio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE\testbench\deviceio\CMakeLists.txt" />
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\7d252f0e17d06c574201ca3559fe45dc\moc_deviceio.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73E2B5C2-DA3E-320E-A81C-D63C2AFE2CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C4D8515-71F6-330E-92DE-41B8A77360DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{179700AC-FF1F-384C-8CFD-0DA54ABFAA47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

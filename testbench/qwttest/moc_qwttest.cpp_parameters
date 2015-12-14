@@ -1,0 +1,8 @@
+-IC:/FYP-2015-EEE/include
+-IC:/FYP-2015-EEE/include/extpkg
+-IC:/FYP-2015-EEE/testbench/qwttest
+-IC:/FYP-2015-EEE_build/testbench/qwttest
+-DWIN32
+-o
+C:/FYP-2015-EEE_build/testbench/qwttest/moc_qwttest.cpp
+C:/FYP-2015-EEE/testbench/qwttest/qwttest.h

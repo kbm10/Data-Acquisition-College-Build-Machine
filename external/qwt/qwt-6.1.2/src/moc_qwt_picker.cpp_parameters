@@ -1,0 +1,7 @@
+-IC:/FYP-2015-EEE/include
+-IC:/FYP-2015-EEE/include/extpkg
+-IC:/FYP-2015-EEE/external/qwt/qwt-6.1.2/src
+-DWIN32
+-o
+C:/FYP-2015-EEE_build/external/qwt/qwt-6.1.2/src/moc_qwt_picker.cpp
+C:/FYP-2015-EEE/external/qwt/qwt-6.1.2/src/qwt_picker.h

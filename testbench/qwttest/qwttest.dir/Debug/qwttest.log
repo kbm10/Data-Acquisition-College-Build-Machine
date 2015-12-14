@@ -1,0 +1,22 @@
+﻿Build started 03/12/2015 18:42:34.
+     1>Project "C:\FYP-2015-EEE_build\testbench\qwttest\qwttest.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/FYP-2015-EEE/testbench/qwttest/CMakeLists.txt
+         CMake does not need to re-run because C:\FYP-2015-EEE_build\testbench\qwttest\CMakeFiles\generate.stamp is up-to-date.
+         Generating moc_qwttest.cpp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\FYP-2015-EEE_build\testbench\qwttest" /I"C:\FYP-2015-EEE\testbench\qwttest" /I"C:\FYP-2015-EEE\include" /I"C:\FYP-2015-EEE\include\extpkg" /I"C:\FYP-2015-EEE\testbench" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtGui /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"qwttest.dir\Debug\\" /Fd"qwttest.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\FYP-2015-EEE_build\testbench\qwttest\moc_qwttest.cpp" "C:\FYP-2015-EEE\testbench\qwttest\main.cpp" "C:\FYP-2015-EEE\testbench\qwttest\qwttest.cpp"
+         moc_qwttest.cpp
+         main.cpp
+         qwttest.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FYP-2015-EEE\bin\qwttest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Widgetsd.lib "C:\FYP-2015-EEE\lib\qwt-6.1.2.lib" "C:\FYP-2015-EEE\lib\fftw-3.3.4.lib" C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/FYP-2015-EEE/bin/qwttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/FYP-2015-EEE_build/testbench/qwttest/Debug/qwttest.lib" /MACHINE:X64  /machine:x64 /debug qwttest.dir\Debug\moc_qwttest.obj
+         qwttest.dir\Debug\main.obj
+         qwttest.dir\Debug\qwttest.obj
+         qwttest.vcxproj -> C:\FYP-2015-EEE\bin\qwttest.exe
+     1>Done Building Project "C:\FYP-2015-EEE_build\testbench\qwttest\qwttest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.49

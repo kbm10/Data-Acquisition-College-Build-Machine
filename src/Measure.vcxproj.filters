@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_grapher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_fftgrapher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_deviceio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_fftoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_tabledata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_configtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_signaltoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE_build\src\moc_hwinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\grapher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftgrapher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\deviceio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\fftwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\tabledata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\configtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\signaltoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FYP-2015-EEE\src\hwinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FYP-2015-EEE\src\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\grapher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftgrapher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\deviceio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftoptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\tabledata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\configtoolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\signaltoolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\hwinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FYP-2015-EEE\src\fftwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\FYP-2015-EEE\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_grapher.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_fftgrapher.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_deviceio.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_fftoptions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_tabledata.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_configtoolbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_signaltoolbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FYP-2015-EEE_build\CMakeFiles\9e194ea6e3ee23ba40845e5ff054ac99\moc_hwinterface.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73E2B5C2-DA3E-320E-A81C-D63C2AFE2CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C4D8515-71F6-330E-92DE-41B8A77360DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{179700AC-FF1F-384C-8CFD-0DA54ABFAA47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

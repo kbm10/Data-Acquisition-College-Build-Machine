@@ -1,0 +1,8 @@
+-IC:/FYP-2015-EEE/include
+-IC:/FYP-2015-EEE/include/extpkg
+-IC:/FYP-2015-EEE/testbench/graphtestbench
+-IC:/FYP-2015-EEE_build/testbench/graphtestbench
+-DWIN32
+-o
+C:/FYP-2015-EEE_build/testbench/graphtestbench/moc_qcustomplot.cpp
+C:/FYP-2015-EEE/testbench/graphtestbench/qcustomplot.h
